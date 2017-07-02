@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get '/' => 'pages#index'
+  get '/show' => 'pages#show'
 
   get '/new' => 'pages#new'
 
